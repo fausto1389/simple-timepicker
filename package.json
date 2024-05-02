@@ -1,0 +1,26 @@
+{
+  "name": "simple-timepicker",
+  "version": "1.0.0",
+  "description": "Simple javascript and Tailwindcss timepicker with list selector",
+  "main": "dist/timepicker.js",
+  "module": "dist/esm/index.js",
+  "style": "dist/timepicker.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fausto1389/simple-timepicker.git"
+  },
+  "keywords": [
+    "timepicker",
+    "javascript",
+    "tailwind"
+  ],
+  "author": "Fausto Trujillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fausto1389/simple-timepicker/issues"
+  },
+  "homepage": "https://github.com/fausto1389/simple-timepicker#readme"
+}
