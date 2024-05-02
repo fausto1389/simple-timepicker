@@ -51,6 +51,14 @@ Then, you can create an input field in your HTML and apply Simple Timepicker to 
 
 ---
 
+## Options
+
+Simple Timepicker has two options to configure:
+
+- __twentyFourHours__: Option that enables or disables the use of 24 hours. Its default value is true.
+- __nullSelection__: Option that enables or disables the use of a null selection; that is, the hour and minutes can remain empty. Its default value is true.
+
+
 ## Example
 
 ```html
@@ -69,7 +77,10 @@ Then, you can create an input field in your HTML and apply Simple Timepicker to 
 
   <script src="dist/timepicker.js"></script>
   <script>
-    timepicker('#time');
+    timepicker('#time', {
+      twentyFourHours: false,
+      nullSelection: false
+    });
   </script>
 </body>
 </html>
