@@ -1,6 +1,6 @@
 {
   "name": "@fausto_trujillo/timepicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple javascript and Tailwindcss timepicker with list selector",
   "main": "dist/timepicker.js",
   "module": "dist/esm/index.js",
