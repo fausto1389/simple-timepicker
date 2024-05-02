@@ -1,0 +1,68 @@
+.timepicker-selectors > div::-webkit-scrollbar
+{
+	@apply w-2 h-2 bg-slate-100 dark:bg-zinc-900 bg-clip-padding;
+}
+
+.tp-m-selector::-webkit-scrollbar
+{
+	@apply w-2 h-2 bg-slate-100 dark:bg-zinc-900 bg-clip-padding rounded-r-lg;
+}
+
+.timepicker-selectors > div::-webkit-scrollbar-thumb
+{
+	@apply bg-sky-400 dark:bg-sky-400 border-2 border-solid border-transparent rounded-xl bg-clip-padding;
+}
+
+.timepicker-hour,
+.timepicker-minute
+{
+	@apply hover:font-bold;
+}
+
+.timepicker-hour.selected,
+.timepicker-minute.selected
+{
+	@apply text-black dark:text-oxford-blue-100 font-black;
+}
+
+.timepicker-selectors
+{
+	@apply text-gray-800 dark:text-oxford-blue-100 border rounded-lg dark:border-slate-600 !h-60 !w-20 absolute bg-white dark:bg-slate-800;
+    top     : 2rem;
+    z-index : 99999999;
+}
+
+.tp-h-input,
+.tp-m-input
+{
+    @apply w-6 appearance-none dark:bg-bunker-950 text-center;
+    outline: none;
+}
+
+.timepicker-container.range
+{
+    @apply inline-flex items-end w-full justify-center !relative;
+}
+
+.timepicker-container.single
+{
+    @apply inline-flex items-end w-full !relative;
+}
+
+.timepickerInput-container
+{
+    @apply inline-flex justify-center;
+}
+
+.timepicker-selectors:before
+{
+	content: "";
+    position: absolute;
+    top: -5px;
+    left: 6px;
+    width: 0;
+    height: 0;
+    border-width: 0 5px 5px;
+    border-style: solid;
+    border-color: transparent transparent #e5e7eb;
+}
