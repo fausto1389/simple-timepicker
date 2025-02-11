@@ -101,7 +101,7 @@ function timepicker(el, opt)
 			}
 		});
 		self.parentNode.insertBefore(selector, self.nextSibling);
-		document.querySelector('.reset-picker').addEventListener('click', function ()
+		self.querySelector('.reset-picker').addEventListener('click', function ()
 		{
 			setTime(null);
 		});
